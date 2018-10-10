@@ -1,6 +1,6 @@
 {
     "name": "jsonresume-theme-eloquent-ru",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "An eloquent JSON Resume theme: fluent, persuasive, for developers",
     "author": "Pavel Finkelshteyn",
     "license": "MIT",
@@ -20,6 +20,7 @@
         "jsonresume",
         "jsonresume-theme",
         "jsonresume-theme-eloquent",
+        "jsonresume-theme-eloquent-ru",
         "theme",
         "eloquent",
         "elegant",
