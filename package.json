@@ -1,6 +1,6 @@
 {
     "name": "jsonresume-theme-eloquent-ru",
-    "version": "1.0.2",
+    "version": "4.1.1-ru",
     "description": "An eloquent JSON Resume theme: fluent, persuasive, for developers",
     "author": "Pavel Finkelshteyn",
     "license": "MIT",
@@ -45,9 +45,9 @@
         "proseWrap": "preserve"
     },
     "dependencies": {
-        "email-scramble": "^2.0.0",
-        "handlebars": "^4.0.3",
-        "moment": "^2.11.2"
+        "email-scramble": "^2.0.1",
+        "handlebars": "^4.0.12",
+        "moment": "^2.22.2"
     },
     "devDependencies": {
         "babel": "^5.8.29",
@@ -69,7 +69,7 @@
         "build:js": "browserify -t babelify assets/scripts/main.js | uglifyjs > dist/bundle.js",
         "build:clean": "rm -rf dist/ && mkdir dist/",
         "build": "npm run build:clean -s && npm run build:js -s && npm run build:css -s",
-        "prepublish": "npm run build -s",
+        "prepublishOnly": "npm run build -s",
         "start": "nodemon server.js -w lib -e js",
         "lint": "jshint index.js server.js lib/*.js",
         "pretest": "npm run lint -s && npm run build -s",
@@ -77,6 +77,7 @@
         "test:unit:watch": "mocha --watch --compilers js:babel/register",
         "test:render": "node test/render.js",
         "test": "npm run test:unit -s && npm run test:render -s",
+        "report:package": "npm pack --loglevel notice 2>&1 >/dev/null | sed -e 's/^npm notice //' | tee dist/package.txt && rm *.tgz",
         "webfont": "webfont-dl 'https://fonts.googleapis.com/css?family=Open+Sans:400' -o assets/styles/opensans.css --woff1=data --woff2=omit --svg=omit --ttf=omit --eot=omit"
     }
 }
