@@ -247,12 +247,12 @@
                       <a class="anchor-link item-anchor" href="#{{itemID 'project' @index ../resume.projects.length}}">#</a>
                       <h4>
                         {{#if url}}
-                          {{~#it type~}}
+                          {{~#if type~}}
                           <span>{{type}}</span>
                           {{/if}}
                           <a href="{{url}}"  target="_blank" rel="noreferrer noopener" itemprop="url"><strong itemprop="name">{{name}}</strong></a>
                         {{else}}
-                          {{~#it type~}}
+                          {{~#if type~}}
                           <span>{{type}}</span>
                           {{/if}}
                           <strong itemprop="name">{{name}}</strong>
