@@ -231,7 +231,7 @@
             </div>
           {{/if}}
 
-          {{#if resume.volunteer}}
+          {{#if resume.projects}}
             <div class="detail" id="projects">
               <h3 class="text-uppercase">
                 <a class="anchor-link text-muted" href="#projects">
@@ -241,10 +241,10 @@
               </h3>
 
               <ul class="list-unstyled">
-                {{#each resume.volunteer}}
-                  <li class="detail-item row" id="{{itemID 'project' @index ../resume.volunteer.length}}" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
+                {{#each resume.projects}}
+                  <li class="detail-item row" id="{{itemID 'project' @index ../resume.projects.length}}" itemprop="memberOf" itemscope itemtype="http://schema.org/Organization">
                     <div class="col-sm-9 detail-item-content">
-                      <a class="anchor-link item-anchor" href="#{{itemID 'project' @index ../resume.volunteer.length}}">#</a>
+                      <a class="anchor-link item-anchor" href="#{{itemID 'project' @index ../resume.projects.length}}">#</a>
                       <h4>
                         {{#if website}}
                           <a href="{{website}}"  target="_blank" rel="noreferrer noopener" itemprop="url"><strong itemprop="name">{{organization}}</strong></a>
