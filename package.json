@@ -1,17 +1,17 @@
 {
-  "name": "jsonresume-theme-eloquent",
+  "name": "jsonresume-theme-eloquent-ru",
   "version": "4.1.0",
-  "description": "An eloquent JSON Resume theme: fluent, persuasive, for developers",
-  "author": "Thibaud Colas",
+  "description": "An eloquent JSON Resume theme: fluent, persuasive, for developers, Russian version",
+  "author": "asm0dey",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/thibaudcolas/jsonresume-theme-eloquent",
+  "homepage": "https://github.com/asm0dey/jsonresume-theme-eloquent-ru",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thibaudcolas/jsonresume-theme-eloquent.git"
+    "url": "https://github.com/asm0dey/jsonresume-theme-eloquent-ru.git"
   },
   "bugs": {
-    "url": "https://github.com/thibaudcolas/jsonresume-theme-eloquent/issues"
+    "url": "https://github.com/asm0dey/jsonresume-theme-eloquent-ru/issues"
   },
   "engines": {
     "node": ">=4.0"
@@ -20,6 +20,7 @@
     "jsonresume",
     "jsonresume-theme",
     "jsonresume-theme-eloquent",
+    "jsonresume-theme-eloquent-ru",
     "theme",
     "eloquent",
     "elegant",
