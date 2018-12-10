@@ -246,13 +246,19 @@
                     <div class="col-sm-9 detail-item-content">
                       <a class="anchor-link item-anchor" href="#{{itemID 'project' @index ../resume.projects.length}}">#</a>
                       <h4>
-                        {{#if website}}
-                          <a href="{{website}}"  target="_blank" rel="noreferrer noopener" itemprop="url"><strong itemprop="name">{{organization}}</strong></a>
+                        {{#if url}}
+                          {{~#it type~}}
+                          <span>{{type}}</span>
+                          {{/if}}
+                          <a href="{{url}}"  target="_blank" rel="noreferrer noopener" itemprop="url"><strong itemprop="name">{{name}}</strong></a>
                         {{else}}
-                          <strong itemprop="name">{{organization}}</strong>
+                          {{~#it type~}}
+                          <span>{{type}}</span>
+                          {{/if}}
+                          <strong itemprop="name">{{name}}</strong>
                         {{/if}}
-                        {{~#if position~}}
-                          ,&nbsp;<span>{{position}}</span>
+                        {{~#if entity~}}
+                          ,&nbsp;<span>{{entity}}</span>
                         {{/if}}
                       </h4>
 
@@ -269,8 +275,12 @@
                           </small>
                         </p>
                       {{/if}}
-
-                      <p itemprop="description">{{nl2br summary}}</p>
+                      {{#if roles}}
+                        <ul class="list-inline labels">
+                          {{#roles}}<li class="label label-keyword">{{.}}</li>{{/roles}}
+                        </ul>
+                      {{/if}}
+                      <p itemprop="description">{{nl2br description}}</p>
 
                       {{#if highlights}}
                         <ul class="detail-highlights">
