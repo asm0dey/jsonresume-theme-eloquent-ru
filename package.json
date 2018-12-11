@@ -61,7 +61,7 @@
         "nodemon": "^1.2.1",
         "pleeease-cli": "^4.0.0",
         "resume-schema": "0.0.16",
-        "uglify-js": "^2.5.0",
+        "uglify-js": "^3.4.9",
         "webfont-dl": "^0.1.1"
     },
     "scripts": {
