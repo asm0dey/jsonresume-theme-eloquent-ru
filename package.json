@@ -50,7 +50,7 @@
         "moment": "^2.22.2"
     },
     "devDependencies": {
-        "babel": "^5.8.29",
+        "babel": "^6.23.0",
         "babelify": "^7.3.0",
         "browser-saveas": "^1.0.0",
         "browser-sync": "^2.8.2",
