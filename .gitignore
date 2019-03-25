@@ -32,3 +32,4 @@ test/resume.pdf
 test/old-resume.html
 
 dist/
+.nyc_output/
