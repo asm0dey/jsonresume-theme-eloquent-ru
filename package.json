@@ -80,7 +80,7 @@
         "start": "nodemon server.js -w lib -e js",
         "lint": "jshint index.js server.js lib/*.js",
         "pretest": "npm run lint -s && npm run build -s",
-        "test:unit": "cross-env NODE_ENV=test nyc --reporter=lcov --require @babel/register --reporter=text mocha && codecov",
+        "test:unit": "cross-env CODECOV_TOKEN=b5184c43-26c4-4d0d-a693-9dcc26324fb7 NODE_ENV=test nyc --reporter=lcov --require @babel/register --reporter=text mocha && codecov",
         "test:unit:watch": "mocha --watch --require @babel/register",
         "test:render": "node test/render.js",
         "test": "npm run test:unit -s && npm run test:render -s",
