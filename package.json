@@ -67,7 +67,7 @@
         "nodemon": "^1.2.1",
         "nyc": "^14.0.0",
         "pleeease-cli": "^4.0.0",
-        "resume-schema": "0.0.17",
+        "resume-schema": "0.0.18",
         "uglify-js": "^3.5.1",
         "webfont-dl": "^0.1.1"
     },
