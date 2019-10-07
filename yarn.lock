@@ -2000,10 +2000,10 @@ crypto-random-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
 
-css-font-face-src@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/css-font-face-src/-/css-font-face-src-0.2.2.tgz#09bdaaef731b952dc7c2969bfde86559b94fffae"
-  integrity sha1-Cb2q73MblS3Hwpab/ehlWblP/64=
+css-font-face-src@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/css-font-face-src/-/css-font-face-src-1.0.0.tgz#a8c6307d48d9afc84a404082cb1776cd458864b1"
+  integrity sha1-qMYwfUjZr8hKQECCyxd2zUWIZLE=
 
 css-mqpacker@^4.0.0:
   version "4.0.1"
@@ -2253,11 +2253,6 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
-
-docopt@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/docopt/-/docopt-0.4.1.tgz#e9ae4d3d14f7fea3e48019235ebc5f1004d22e87"
-  integrity sha1-6a5NPRT3/qPkgBkjXrxfEATSLoc=
 
 dom-serializer@0:
   version "0.1.1"
@@ -4516,13 +4511,6 @@ ms@2.1.1, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
-multiline@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/multiline/-/multiline-1.0.2.tgz#69b1f25ff074d2828904f244ddd06b7d96ef6c93"
-  integrity sha1-abHyX/B00oKJBPJE3dBrfZbvbJM=
-  dependencies:
-    strip-indent "^1.0.0"
-
 nan@^2.10.0, nan@^2.9.2:
   version "2.13.1"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.13.1.tgz#a15bee3790bde247e8f38f1d446edcdaeb05f2dd"
@@ -4563,6 +4551,13 @@ neo-async@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.0.tgz#b9d15e4d71c6762908654b5183ed38b753340835"
   integrity sha512-MFh0d/Wa7vkKO3Y3LlacqAEeHK0mckVqzDieUKTT+KGxi+zIpeVsFxymkIiRpbpDziHc290Xr9A1O4Om7otoRA==
+
+neodoc@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/neodoc/-/neodoc-2.0.2.tgz#ad00b30b9758379dcd3cf752a0659bacbab2c4fb"
+  integrity sha512-NAppJ0YecKWdhSXFYCHbo6RutiX8vOt/Jo3l46mUg6pQlpJNaqc5cGxdrW2jITQm5JIYySbFVPDl3RrREXNyPw==
+  dependencies:
+    ansi-regex "^2.0.0"
 
 nested-error-stacks@^2.0.0:
   version "2.1.0"
@@ -6464,7 +6459,7 @@ strip-eof@^1.0.0:
   resolved "https://registry.yarnpkg.com/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
   integrity sha1-u0P/VZim6wXYm1n80SnJgzE2Br8=
 
-strip-indent@^1.0.0, strip-indent@^1.0.1:
+strip-indent@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/strip-indent/-/strip-indent-1.0.1.tgz#0c7962a6adefa7bbd4ac366460a638552ae1a0a2"
   integrity sha1-DHlipq3vp7vUrDZkYKY4VSrhoKI=
@@ -6955,16 +6950,15 @@ vm-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha512-iq+S7vZJE60yejDYM0ek6zg308+UZsdtPExWP9VZoCFCz1zkJoXFnAX7aZfd/ZwrkidzdUZL0C/ryW+JwAiIGw==
 
-webfont-dl@^0.1.1:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/webfont-dl/-/webfont-dl-0.1.5.tgz#3a9ea9f6416aa717d8551443105c3c786018d5ee"
-  integrity sha512-I/6qWW44b1S5PNYMILfzlFN6O3/fQ2Y2NaBz1dTeE9EG9v+AuNKuY9cbVvXup4c1IEyxHswljoDXtcXedOExew==
+webfont-dl@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/webfont-dl/-/webfont-dl-0.2.0.tgz#99d303cef4242795555edf0ca949b0e85f8a0cab"
+  integrity sha512-B4zlH8DyagIDNWm8F8dQLvpo7a/bBC6LYSDBSHXM6J0CpjHtBZEOOZCGQ+WuPQCLwfibBb2WMJunTNksaCy2GQ==
   dependencies:
     css "^2.1.0"
-    css-font-face-src "^0.2.2"
-    docopt "^0.4.1"
+    css-font-face-src "^1.0.0"
     mkdirp "^0.5.0"
-    multiline "^1.0.1"
+    neodoc "^2.0.2"
     q "^1.1.2"
     request "^2.88.0"
 
