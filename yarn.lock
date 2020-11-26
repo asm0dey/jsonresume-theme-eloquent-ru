@@ -6301,10 +6301,10 @@ responselike@^1.0.2:
   dependencies:
     lowercase-keys "^1.0.0"
 
-resume-schema@0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/resume-schema/-/resume-schema-0.1.3.tgz#4e7fa376762bcac7e57ab7853ef324c6b2381371"
-  integrity sha512-fsqXx62BlWLOKfbjDNhSotXGvgyb+tkddWKECIFLHz239iKDAIv2lB/NVurngT5wqfyeQfFL8vIflU7T6MtcGw==
+resume-schema@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/resume-schema/-/resume-schema-1.0.0.tgz#f26cb8032f7533e9ef8145bf656b672cbf5e7845"
+  integrity sha512-9ZEP3oO1IRrjQWTOfDq7fDNNeJp7gWqfS/l2D02f6f25nRw/wRAkpDyvIlw9uoaDARK7Ebj/CN2D/6Ht27S0zg==
   dependencies:
     z-schema "^4.2.2"
 
