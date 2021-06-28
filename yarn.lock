@@ -7463,9 +7463,9 @@ ua-parser-js@^0.7.18:
   integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 uglify-js@^3.1.4, uglify-js@^3.5.1:
-  version "3.13.7"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.13.7.tgz#25468a3b39b1c875df03f0937b2b7036a93f3fee"
-  integrity sha512-1Psi2MmnZJbnEsgJJIlfnd7tFlJfitusmR7zDI8lXlFI0ACD4/Rm/xdrU8bh6zF0i74aiVoBtkRiFulkrmh3AA==
+  version "3.13.10"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.13.10.tgz#a6bd0d28d38f592c3adb6b180ea6e07e1e540a8d"
+  integrity sha512-57H3ACYFXeo1IaZ1w02sfA71wI60MGco/IQFjOqK+WtKoprh7Go2/yvd2HPtoJILO2Or84ncLccI4xoHMTSbGg==
 
 umd@^3.0.0:
   version "3.0.3"
